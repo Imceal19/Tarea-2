@@ -1,0 +1,109 @@
+body{
+    background-color: gray;
+}
+header, footer, .main{
+    width: 90%;
+    
+    
+}
+#barra ul{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+overflow: hidden;
+  background-color: orangered;
+}
+
+#barra ul li{
+    float: left;
+}
+
+#barra ul li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#barra ul li a:hover{
+    background-color: orange;
+    
+}
+.main .articles{
+    background-color: white;
+    width: 67%;
+    float: left;
+    padding:1px;
+    margin-right:2%;
+}
+aside{
+    width: 30%;
+    background-color: #6b6d6d;
+    float:left;
+    color: #fff;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.main .articles article{
+    padding:20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+footer{
+    background:#000;
+    color: #fff;
+    clear:both;
+    padding:1px 0px;
+    text-align: center;
+    
+}
+
+.articles table{
+    border-collapse: collapse;
+    
+}
+.articles table td {
+    border: 1px solid black;
+    padding: 1em;
+
+        
+}
+form{
+    width: 70%;
+    border:2px solid #ccc;
+    margin: 20px;
+    padding:20px;
+    background: #f23c18;
+    border-radius: 10px;
+    
+}
+label{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+textarea{
+    resize: vertical;
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 100px;
+    width: 100%;
+}
+input, textarea{
+    margin-bottom: 30px;
+    padding:10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    
+}
+
+.asignaturas{
+    list-style: none;
+    padding: 10px 30px;
+    color:#000;
+    font-size: 20px;
+    background: #f1f1e7;
+    display: block;
+}
